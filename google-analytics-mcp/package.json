@@ -1,0 +1,21 @@
+{
+  "name": "google-analytics-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Google Analytics via GA4 Data API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-analytics/data": "^5.2.0",
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "dotenv": "^17.2.1",
+    "google-auth-library": "^10.3.0",
+    "zod": "^3.25.76"
+  }
+}
